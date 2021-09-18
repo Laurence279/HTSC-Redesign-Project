@@ -1,0 +1,176 @@
+a img {
+ border:0px;
+}
+body {
+ background: url('../../masterfiles/home/images/browser/bg.png');
+ margin: 0px auto;
+}
+div.container {
+ margin: 0px auto;
+ width: 960px;
+ box-shadow: 0px 0px 2px 0px rgba(0,0,0,1);
+ height: auto;
+ background-color: #FEFFFF;
+}
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+ body {
+  background: url('../../masterfiles/home/images/browser/bg@2x.png');
+  background-size: 99px 99px;
+ }
+}
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+ div.container {
+ }
+}
+.shape_0 {
+ background-color:#FEFFFF;
+ opacity: 1.00;
+ filter:alpha(opacity=100);
+}
+.shape_1 {
+ background: url('../../masterfiles/home/images/shape_1.png') no-repeat;
+}
+#navmenu_menu0 a.item0 {
+ background: #FEFFFF;
+ background-size:82px 30px;
+}
+#navmenu_menu0 a.item1 {
+ background: #FEFFFF;
+ background-size:56px 30px;
+}
+#navmenu_menu0 a.item2 {
+ background: #FEFFFF;
+ background-size:69px 30px;
+}
+#navmenu_menu0 a.item3 {
+ background: #FEFFFF;
+ background-size:107px 30px;
+}
+#navmenu_menu0 a.item4 {
+ background: #FEFFFF;
+ background-size:115px 30px;
+}
+#navmenu_menu0 a.item5 {
+ background: #FEFFFF;
+ background-size:83px 30px;
+}
+#navmenu_menu0 a.item6 {
+ background: #FEFFFF;
+ background-size:70px 30px;
+}
+#navmenu_menu0 {
+ clear:both;
+ float:left;
+ margin:0;
+ padding:0;
+ width:100%;
+ font-family:'HelveticaNeue-Light','Helvetica Neue','Helvetica';
+ font-weight: 300;
+ font-size:18px;
+ z-index:1000;
+}
+#navmenu_menu0 ul {
+ margin:0;
+ padding:0;
+ list-style:none;
+ position:relative;
+ right:50%;
+ float:right;
+}
+#navmenu_menu0 ul li {
+ margin:0 12px 0 0;
+ padding:0;
+ float:left;
+ position:relative;
+ left:50%;
+ min-width: 10px;
+}
+#navmenu_menu0 ul li a {
+ display:block;
+ margin:0;
+ padding:2px;
+ height: 26px;
+ line-height: 26px;
+ text-decoration:none;
+ color:#AB1500;
+ font-weight: 300;
+ text-align: center;
+}
+#navmenu_menu0 ul li a:visited {
+ text-decoration:none;
+ color:#FF2600;
+}
+#navmenu_menu0 ul li a:hover {
+ text-decoration:none;
+ color:#D71E00;
+}
+#navmenu_menu0 ul li:hover a,
+#navmenu_menu0 ul li.hover a {
+ text-decoration:none;
+ color:#D71E00;
+}
+#navmenu_menu0 ul ul {
+ z-index:11006;
+ display:none;
+ position:absolute;
+ left:0;
+ float:left;
+ right:auto;
+ padding-top:2px;
+}
+#navmenu_menu0 ul ul li {
+ left:auto;
+ margin:0;
+ clear:left;
+ float:left;
+ width:100%;
+}
+#navmenu_menu0 ul ul li a,
+#navmenu_menu0 ul li.active li a,
+#navmenu_menu0 ul li:hover ul li a,
+#navmenu_menu0 ul li.hover ul li a {
+ background:#FEFFFF;
+ text-decoration:none;
+ color:#AB1500;
+ padding-top:0px;
+ padding-bottom:0px;
+ border-bottom:1px solid #AB1500;
+ float:left;
+ width:6px;
+ width:100%;
+ text-align: left;
+ white-space:nowrap;
+}
+#navmenu_menu0 ul ul li a:hover,
+#navmenu_menu0 ul li.active ul li a:hover,
+#navmenu_menu0 ul li:hover ul li a:hover,
+#navmenu_menu0 ul li.hover ul li a:hover {
+ background:#FEFFFF;
+ text-decoration:none;
+ color:#D71E00;
+ float:left;
+}
+#navmenu_menu0 ul li.last ul {
+ left:auto;
+ right:0;
+}
+#navmenu_menu0 ul li.last ul li {
+ float:right;
+ position:relative;
+ right:4px;
+}
+#navmenu_menu0 ul li:hover ul,
+#navmenu_menu0 ul li.hover ul {
+ display:block;
+}
+.shape_7 {
+ background-color:#797979;
+ opacity: 1.00;
+ filter:alpha(opacity=100);
+}
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-devicepixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+ .shape_1 {
+  background: url('../../masterfiles/home/images/shape_1@2x.png') no-repeat;
+  background-size: 818px 76px;
+ }
+}
