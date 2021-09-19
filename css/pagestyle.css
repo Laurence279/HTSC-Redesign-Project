@@ -155,10 +155,12 @@ nav ul {
     height:auto;
 }
 .carousel-slides{
+
     overflow:hidden;
     height:100%;
 }
 .carousel-slides img{
+
     height:100%;
     width: 520px;
     object-fit:fill;
@@ -256,7 +258,6 @@ display:initial;
 position: relative;
 color:rgb(169, 169, 169);
 opacity: 0.5;
-
 }
 
 .buttons ::selection {
@@ -271,19 +272,22 @@ opacity: 0.5;
     color:lightgrey;
 }
 #prev-btn{
-    
+
+    top: 60px;
+    left: 0;
+
     position: absolute;
-    left:0;
-    margin: 12% 0;
+
     font-size: 4rem;
     cursor:pointer;
     padding: 0.8em 0.2em;
 }
 
 #next-btn{
+
     position: absolute;
-    right:0;
-    margin: 12% 0;
+    top: 60px;
+    right: 0;
     font-size: 4rem;
     cursor:pointer;
     padding: 0.8em 0.2em;
@@ -308,35 +312,6 @@ height: 53.6px;
     -webkit-box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.8);
     -moz-box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.8);
     box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.8);
-}
-
-@media only screen and (-moz-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-devicepixel-ratio: 1.5),
-only screen and (min-resolution: 1.5dppx) {
-    body {
-        background: url('../../masterfiles/home/images/browser/bg@2x.png');
-        background-size: 99px 99px;
-    }
-}
-
-@media only screen and (-moz-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-devicepixel-ratio: 1.5),
-only screen and (min-resolution: 1.5dppx) {
-    div.container {}
-}
-
-.shape_0 {
-    background-color: #FEFFFF;
-    opacity: 1.00;
-    filter: alpha(opacity=100);
-}
-
-.shape_1 {
-    background: url('../../masterfiles/home/images/shape_1.png') no-repeat;
 }
 
 .banner-container{
@@ -380,3 +355,81 @@ only screen and (min-resolution: 1.5dppx) {
     display:grid;
     align-items: flex-end;
 }
+
+@media only screen and (max-width: 1700px) {
+    h1{
+        font-size: 2rem;
+        width:50%;
+    }
+    nav{
+        width:100%;
+    }
+    
+     .two-columns-auto{
+        justify-content: center;
+
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        gap: 0;
+    }
+    .foreground-container{
+        text-align: center;
+        margin:0 auto;
+        width:80%;
+    }
+    .container{
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border: solid black 5px;
+        margin: 0 auto;
+
+        box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 1);
+        height: auto;
+        max-width: 90%;
+        background-color: #4F6D7A;
+    }
+    .img-anchors{
+    display:initial;
+    }
+.img-anchors a{
+    margin: 0 0.6rem;
+}
+    .img-anchors img{
+        height: 50%;
+        margin: 0.6em;
+    }
+    .img-anchor-trio img{
+        
+        height: 72px;
+    }
+    .img-anchor-trio a{
+
+        height:72px;
+    }
+    .header-logos img {
+        margin: 1em;
+    }
+    
+    #img-htsc {
+        height: 100px;
+        position:absolute;
+        top: 3%;
+    }
+    
+    #img-coe {
+    
+        height: 30px;
+    
+    }
+    
+    #img-dor {
+    
+        height: 30px;
+    }
+    
+    #img-methodist {
+
+        height: 30px;
+    }
+    
+  }
