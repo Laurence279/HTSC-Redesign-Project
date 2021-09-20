@@ -352,7 +352,7 @@ height: 53.6px;
     height:120px;
     
 }
-.map-img{
+.map-img img{
     border: solid black 2px;
 }
 .bottom-align-content{
@@ -371,17 +371,61 @@ height: 53.6px;
     }
     nav{
         padding: 0.6em 0;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         text-align: center;
+
     }
+    nav ul{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    nav li{
+        margin: 0.4em 0.2em;
+        border: solid black 2px;
+        background-color:#3e6374;
+        height: 70%;
+        -webkit-box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.8);
+        -moz-box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.8);
+        box-shadow: 5px 5px 10px 0px rgba(50, 50, 50, 0.8);
+    }
+
+nav a {
+   
+    text-decoration: none;
+   
+    padding: 0.5em;
+    display:block;
+
+}
+
+nav a:hover {
+    color: #C0D6DF;
+}
+.active {
+    border-radius: none;
+    padding-bottom: 0.5em;
+    border: none;
+    border-bottom: none;
+    background-color: unset;
+    color: unset;
+}
+.active:hover{
+    color: #203138;
+}
     p{
         margin: 1em 0;
     }
-    .active{
+    .mobile-grid-full-width{
         border:none;
-        padding:0;
-        background-color: #4F6D7A;
-        color:#DBE9EE;
+        padding: 0;
+        background-color:#3e6374;
+        border: solid black 2px;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 0.4em;
+        border-radius: unset;
     }
 
      .two-columns-auto{
@@ -390,7 +434,18 @@ height: 53.6px;
         grid-template-rows: auto;
         gap: 0;
     }
+    .two-columns-half{
+        display:block;
+    }
+    .three-columns{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-border{
+        border:none;
+    }
     .foreground-container{
+        
         text-align: center;
         margin:0 auto;
         width:95%;
@@ -410,7 +465,7 @@ height: 53.6px;
         max-width: 100%;
         background-color: #4F6D7A;
     }
-    .img-anchors{
+     .img-anchors{
     display:grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
@@ -464,5 +519,17 @@ height: 53.6px;
 
         height: 20px;
     }
-    
+    .banner-container{
+
+        width:100%;
+    }
+    .banner-container img{
+  
+        max-width: 90vw;
+        object-fit:contain;
+    }
+    .img-grid-header{
+        max-width: 90vw;
+        max-height: 30vh;
+    }
   }
