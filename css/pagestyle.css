@@ -157,6 +157,7 @@ nav ul {
 .carousel-slides{
     height:100%;
     position:relative;
+    overflow:hidden;
 }
 .carousel-slides img{
 
@@ -218,9 +219,10 @@ display:initial;
 .two-columns-auto {
     justify-content: space-evenly;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 45%;
     grid-template-rows: auto;
     gap: 1em;
+
 }
 .two-columns-half{
     justify-content: space-evenly;
@@ -361,7 +363,7 @@ height: 53.6px;
 @media only screen and (max-width: 1200px) {
     h1{
         font-size: 1.4rem;
-        max-width:70%;
+        max-width:60%;
     }
     body, html{
         max-width:100%;
@@ -371,6 +373,9 @@ height: 53.6px;
         padding: 0.6em 0;
         font-size: 0.6rem;
         text-align: center;
+    }
+    p{
+        margin: 1em 0;
     }
     .active{
         border:none;
@@ -398,58 +403,66 @@ height: 53.6px;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
         margin: 0 auto;
-        border: none;
+        border-left: none;
+        border-right: none;
         box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 1);
         height: auto;
         max-width: 100%;
         background-color: #4F6D7A;
     }
     .img-anchors{
-    display:block;
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-top: 0;
+    
     }
 .img-anchors a{
-    margin: 0 0.6rem;
+
+    margin: 0.2em 0.2em 1em 0.2em;
 }
     .img-anchors img{
-        height: 50%;
-        margin: 0.6em;
+
+        margin: 0.2em;
     }
     .img-anchor-trio{
-        display:inline-flex;
-        vertical-align: top;
+        margin: 0.2em;
+
     }
     .img-anchor-trio img{
-        
-        height: 75px;
+
+
+        height: 53px;
     }
     .img-anchor-trio a{
-
-        height:75px;
+        margin: 0;
+        height:53px;
     }
     .header-logos img {
-        margin: 1em;
+        margin: 0.5em;
     }
     
     #img-htsc {
         height: 100px;
         position:absolute;
         top: 3%;
+        float:left;
     }
     
     #img-coe {
     
-        height: 30px;
+        height: 20px;
     
     }
     
     #img-dor {
     
-        height: 30px;
+        height: 20px;
     }
     
     #img-methodist {
 
-        height: 30px;
+        height: 20px;
     }
     
   }
