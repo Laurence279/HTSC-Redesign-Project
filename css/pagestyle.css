@@ -520,16 +520,17 @@ nav a:hover {
         height: 20px;
     }
     .banner-container{
-
+        
         width:100%;
     }
     .banner-container img{
-  
+        border:none;
         max-width: 90vw;
         object-fit:contain;
     }
     .img-grid-header{
-        max-width: 90vw;
-        max-height: 30vh;
+        
+        max-width: 75vw;
+        max-height: 15vh;
     }
   }
