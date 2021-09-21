@@ -163,7 +163,7 @@ nav ul {
 
     height:100%;
     width: 100%;
-    object-fit:fill;
+    object-fit:contain;
 }
 .foreground-container-top-fill {
     position: relative;
@@ -360,7 +360,19 @@ height: 53.6px;
     align-items: flex-end;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1600px){
+    
+    nav{
+        padding: 0.6em 0;
+        font-size: 0.8rem;
+        text-align: center;
+
+    
+    }
+
+}
+
+@media only screen and (max-width: 1279px) {
     h1{
         font-size: 1.4rem;
         max-width:60%;
