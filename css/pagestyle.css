@@ -502,8 +502,9 @@ nav a:hover {
     #img-htsc {
         height: 100px;
         position:absolute;
-        top: 3%;
-        float:left;
+        top: 0;
+        left:1%;
+        
     }
     
     #img-coe {
